@@ -4,7 +4,7 @@
  *
  * SET THIS URL to your deployed Apps Script /exec URL.
  */
-const API_URL = "https://script.google.com/macros/s/AKfycby2meBURCXZVQcLpeDMkGQefPuLZ39L7jBQAPCWl9EsfSIcUK2aL0VnIq7TphnwyXNEAQ/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbywKtW_14eIQctf767ZkWih6LyQS1Dlj30DNYGCsPV2SGK5XPxLesQc9mPwntWP4fR1/exec";
 
 let D = {};
 
