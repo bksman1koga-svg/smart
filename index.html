@@ -1,51 +1,37 @@
 <!doctype html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>SMART Kinerja Sekolah</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SMART Kinerja Sekolah</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="app">
-  <aside class="side">
-    <div class="brand">SMART KINERJA<small>Sistem Manajemen Kinerja Sekolah</small></div>
-    <div class="nav">
-      <button class="active" data-page="dashboard">Dashboard</button>
-      <button data-page="guru">Data Guru</button>
-      <button data-page="indikator">Indikator Kinerja</button>
-      <button data-page="supervisi">Supervisi Kelas</button>
-      <button data-page="program">Program Sekolah</button>
-      <button data-page="monitoring">Monitoring</button>
-      <button data-page="pembinaan">Pembinaan Guru</button>
-      <button data-page="keputusan">Keputusan Berbasis Data</button>
-      <button data-page="laporan">Laporan</button>
-      <button data-page="pengaturan">Pengaturan</button>
-    </div>
-  </aside>
-
-  <main class="main">
-    <div class="top">
-      <div>
-        <h1 id="title">Dashboard</h1>
-        <div class="muted" id="school">Memuat...</div>
-      </div>
-      <button class="btn gray" id="refreshBtn">Refresh</button>
-    </div>
-    <div id="view"></div>
-  </main>
+<aside class="side">
+<div class="brand">SMART KINERJA<small>Sistem Manajemen Kinerja Sekolah</small></div>
+<div class="nav">
+<button class="active" data-page="dashboard">Dashboard</button>
+<button data-page="guru">Data Guru</button>
+<button data-page="indikator">Indikator Kinerja</button>
+<button data-page="supervisi">Supervisi Kelas</button>
+<button data-page="program">Program Sekolah</button>
+<button data-page="monitoring">Monitoring</button>
+<button data-page="pembinaan">Pembinaan Guru</button>
+<button data-page="keputusan">Keputusan Berbasis Data</button>
+<button data-page="laporan">Laporan</button>
+<button data-page="pengaturan">Pengaturan</button>
 </div>
-
-<div class="modal" id="modal">
-  <div class="box">
-    <button class="btn gray close-btn" id="closeModal">Tutup</button>
-    <div id="formbox"></div>
-  </div>
+</aside>
+<main class="main">
+<div class="top"><div><h1 id="title">Dashboard</h1><div class="muted" id="school">Memuat...</div></div><button class="btn gray" id="refreshBtn">Refresh</button></div>
+<div id="view"></div>
+</main>
 </div>
-
+<div class="modal" id="modal"><div class="box"><button class="btn gray close-btn" id="closeModal">Tutup</button><div id="formbox"></div></div></div>
 <div class="toast" id="toast"></div>
-
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
