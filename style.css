@@ -51,3 +51,14 @@ textarea{min-height:80px;resize:vertical}
 
 .guru-toolbar{align-items:center;gap:16px}.actions{display:flex;gap:8px;flex-wrap:wrap}.upload-btn{position:relative;overflow:hidden;cursor:pointer}.upload-btn input{display:none}.searchbar{display:flex;align-items:center;gap:12px;margin:14px 0}.searchbar input{flex:1;min-width:220px;padding:11px 13px;border:1px solid #d7dfeb;border-radius:10px;background:#fff;font:inherit;outline:none}.searchbar input:focus{border-color:#6b8fd6;box-shadow:0 0 0 3px rgba(52,101,180,.10)}
 @media(max-width:800px){.guru-toolbar{align-items:flex-start;flex-direction:column}.actions{width:100%}.actions .btn,.actions .upload-btn{flex:1;text-align:center}.searchbar{flex-direction:column;align-items:stretch}.searchbar input{min-width:0}}
+
+.chart-panel{margin-top:15px}
+.chart-panel h3{margin:0 0 12px;font-size:16px}
+.chart-box{position:relative;height:300px}
+.chart-box.small{height:260px}
+.charts-grid{grid-template-columns:1fr 1fr;margin-top:15px}
+.chart-note{font-size:12px;color:var(--muted);margin-top:8px}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#eef2ff;font-weight:700;font-size:11px}
+.score-guide{background:#f0f7ff;border:1px solid #d7e7ff;border-radius:10px;padding:10px;margin-bottom:12px;font-size:12px;color:#29456b}
+select{width:100%;padding:9px;border:1px solid #d6dce6;border-radius:8px;background:#fff;font:inherit}
+@media(max-width:900px){.charts-grid{grid-template-columns:1fr}.chart-box{height:260px}}
