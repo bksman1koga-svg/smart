@@ -2,7 +2,7 @@
  * SMART Kinerja Sekolah - FIX INTERAKSI V3
  * Frontend GitHub Pages / Vercel + Google Apps Script JSONP.
  */
-const API_URL = "https://script.google.com/macros/s/AKfycbyvzbWsCqbZ6fCmhHTZe2ZfWIxyiA1_NeUGSGlf1Mjy8oYhLab-JKimDb1dFqabUGXb/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbywKtW_14eIQctf767ZkWih6LyQS1Dlj30DNYGCsPV2SGK5XPxLesQc9mPwntWP4fR1/exec";
 
 let D = {};
 let currentPage = 'dashboard';
